@@ -1,0 +1,29 @@
+{
+  "name": "qr-filetransfer",
+  "version": "0.0.1",
+  "description": "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svenkatreddy/qr-filetransfer.git"
+  },
+  "keywords": [
+    "file",
+    "transfer",
+    "qr",
+    "code",
+    "easy",
+    "zip",
+    "files",
+    "multiple"
+  ],
+  "author": "Venkat Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svenkatreddy/qr-filetransfer/issues"
+  },
+  "homepage": "https://github.com/svenkatreddy/qr-filetransfer#readme"
+}
