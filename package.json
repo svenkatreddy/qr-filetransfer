@@ -1,6 +1,6 @@
 {
   "name": "qr-filetransfer",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.",
   "main": "index.js",
   "scripts": {
