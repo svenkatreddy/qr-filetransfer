@@ -52,7 +52,9 @@ Instead of installing, you can also use `npx`
 npx qr-filetransfer /path/to/file.txt
 ```
 
-## issues and pull requests are welcomed
+## Contribution
+* Please open an issue for features or bugs
+* Please Fork and open Pull Requests
 
 ### Credits
 Inspired from https://github.com/claudiodangelis/qr-filetransfer

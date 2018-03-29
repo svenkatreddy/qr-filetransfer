@@ -1,10 +1,10 @@
 {
   "name": "qr-filetransfer",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_ENV=test mocha test/**/*-test.js"
   },
   "repository": {
     "type": "git",
@@ -40,5 +40,10 @@
     "path": "^0.12.7",
     "qrcode-terminal": "^0.12.0",
     "util-promisify": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.5",
+    "sinon": "^4.4.9",
+    "ultimate-chai": "^4.1.1"
   }
 }
