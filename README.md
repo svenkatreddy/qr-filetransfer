@@ -21,11 +21,20 @@ Transfer a single file
 qr-filetransfer /path/to/file.txt
 ```
 
-Transfer a file over internet (https)
+Experimental: Transfer a file over internet (https)
 
 ```
 qr-filetransfer /path/to/file.txt ---www=true
 ```
+
+(or) use Alias
+
+```
+qrf /path/to/file.txt
+```
+
+## Multi files
+--------------
 
 Transfer multiple files
 
@@ -46,13 +55,6 @@ Transfer files and directories Note: **gets zipped** before being transferred
 qr-filetransfer /path/to/directory /path/to/file.txt /path/to/Anotherfile.txt
 ```
 
-(or)
- 
-you can use shortcut `qrf`
-
-```
-qrf /path/to/file.txt
-```
 
 Instead of installing, you can also use `npx`
 
