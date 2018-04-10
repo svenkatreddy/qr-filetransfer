@@ -4,6 +4,7 @@
   "description": "Transfer files over wifi or internet from your computer to your mobile device by scanning a QR code without leaving the terminal.",
   "main": "index.js",
   "scripts": {
+    "start": "./lib/index.js",
     "test": "NODE_ENV=test mocha test/**/*-test.js"
   },
   "repository": {
