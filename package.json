@@ -37,7 +37,7 @@
     "express-easy-zip": "^1.1.4",
     "localtunnel": "^1.8.3",
     "minimist": "^1.2.0",
-    "network": "^0.4.1",
+    "network": "^0.5.0",
     "path": "^0.12.7",
     "qrcode-terminal": "^0.12.0",
     "util-promisify": "^2.1.0"
