@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-
-    </head>
-    <!-- to add javascript code to do http request -->
     <body>
-        <form>
-            <p>File: <input type="file"></p>
-            <button>Send</button>
-        </form>
+        <form action="/" enctype="multipart/form-data" method="POST"> 
+            <p>File: <input type="file" name="uploaded_file" /></p>
+            <input type="submit" value="upload_file"/>
+         </form>
     </body>
 </html>
