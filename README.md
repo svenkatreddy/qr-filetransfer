@@ -1,5 +1,5 @@
 # qr-filetransfer
-Transfer files over wifi (or) internet from your computer to your mobile device by scanning a QR code without leaving the terminal using node.js
+Transfer files over wifi (or) internet from your computer (or vice versa) to your mobile device by scanning a QR code without leaving the terminal using node.js
 
 [![Build Status](https://travis-ci.org/svenkatreddy/qr-filetransfer.svg?branch=master)](https://travis-ci.org/svenkatreddy/qr-filetransfer)
 
@@ -60,6 +60,14 @@ Instead of installing, you can also use `npx`
 
 ```
 npx qr-filetransfer /path/to/file.txt
+```
+
+## Receive file
+--------------
+Receive file from mobile device to your computer
+
+```
+qr-filetransfer receive
 ```
 
 ## Contribution
