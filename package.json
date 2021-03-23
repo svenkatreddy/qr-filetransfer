@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "mocha": "^5.0.5",
-    "sinon": "^4.4.9",
+    "sinon": "^10.0.0",
     "ultimate-chai": "^4.1.1"
   }
 }
