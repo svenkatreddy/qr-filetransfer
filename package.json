@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/svenkatreddy/qr-filetransfer#readme",
   "dependencies": {
-    "debug": "^3.1.0",
+    "debug": "^4.3.2",
     "express": "^4.16.3",
     "express-easy-zip": "^1.1.4",
     "localtunnel": "^2.0.1",
